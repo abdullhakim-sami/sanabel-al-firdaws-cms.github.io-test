@@ -1,10 +1,16 @@
-
+<!DOCTYPE html>
 <html>
   <head>
-    <title>This is the title of the webpage!</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/@staticcms/app@^3.0.0/dist/main.css" />
+    <title>Content Manager</title>
   </head>
   <body>
-    <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
+    <!-- Include the script that builds the page and powers Static CMS -->
+    <script src="https://unpkg.com/@staticcms/app@^3.0.0/dist/static-cms-app.js"></script>
+    <script>
+      window.CMS.init();
+    </script>
   </body>
 </html>
-
